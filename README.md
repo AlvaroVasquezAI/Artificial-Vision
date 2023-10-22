@@ -1,91 +1,91 @@
-# Visión Artificial
+# Artificial Vision
 
-## Unidad 1: Fundamentos de visión artificial
+## Unit 1: Fundamentals of Artificial Vision
 
-1. Sistema visual humano.
-2. La naturaleza de la visión.
-   - 2.1 El proceso de reconocimiento.
-   - 2.2 Ubicación de objetos.
-   - 2.3 Análisis de escena.
-   - 2.4 Visión como gráficos inversos.
-3. Niveles de visión artificial.
-   - 3.1 Visión de bajo nivel (Procesamiento digital de imágenes).
-   - 3.2 Visión de nivel intermedio (Análisis de imágenes).
-   - 3.3 Visión de alto nivel (Machine Learning y Deep Learning).
-4. Aplicaciones.
+1. **Human Visual System**
+2. **The Nature of Vision**
+   - 2.1 The Recognition Process
+   - 2.2 Object Localization
+   - 2.3 Scene Analysis
+   - 2.4 Vision as Inverse Graphics
+3. **Levels of Artificial Vision**
+   - 3.1 Low-Level Vision (Digital Image Processing)
+   - 3.2 Intermediate-Level Vision (Image Analysis)
+   - 3.3 High-Level Vision (Machine Learning and Deep Learning)
+4. **Applications**
 
-## Unidad 2: Segmentación
+## Unit 2: Segmentation
 
-1. Fundamentos.
-   - 1.1 Detección de puntos, líneas y bordes.
-   - 1.2 Umbralizado.
-2. Análisis de formas binarias.
-   - 2.1 Funciones de distancia.
-   - 2.2 Esqueletos y adelgazamiento.
-3. Análisis de perímetro.
-   - 3.1 Seguimiento de perímetro.
-   - 3.2 Perfil centroidal.
-   - 3.3 Códigos de cadena.
-4. Segmentación.
-   - 4.1 Conexión entre píxeles de imágenes.
-   - 4.2 Etiquetado y conteo.
-   - 4.3 Filtrado de tamaño.
-   - 4.4 Segmentación por crecimiento de regiones.
-   - 4.5 Segmentación por separación-combinación de regiones.
-   - 4.6 Segmentación de regiones usando agrupamiento y super píxeles.
+1. **Fundamentals**
+   - 1.1 Detection of Points, Lines, and Edges
+   - 1.2 Thresholding
+2. **Binary Shape Analysis**
+   - 2.1 Distance Functions
+   - 2.2 Skeletons and Thinning
+3. **Perimeter Analysis**
+   - 3.1 Perimeter Tracking
+   - 3.2 Centroidal Profile
+   - 3.3 Chain Codes
+4. **Segmentation**
+   - 4.1 Pixel Connectivity in Images
+   - 4.2 Labeling and Counting
+   - 4.3 Size Filtering
+   - 4.4 Region Growing Segmentation
+   - 4.5 Region Separation-Combination Segmentation
+   - 4.6 Region Segmentation using Clustering and Superpixels
 
-## Unidad 3: Reconocimiento de objetos en la imagen
+## Unit 3: Object Recognition in Images
 
-1. Sistemas de reconocimiento de imágenes.
-   - 1.1 Características de reconocimiento de imágenes.
-   - 1.2 Flujo de datos en un sistema de análisis de imágenes.
-2. Características descriptoras del perímetro.
-   - 2.1 Descriptores básicos.
-   - 2.2 Números de forma.
-   - 2.3 Descriptores de Fourier.
-   - 2.4 Momentos estadísticos.
-3. Descriptores de región.
-   - 3.1 Descriptores básicos.
-   - 3.2 Descriptores topológicos.
-   - 3.3 Descriptores de textura.
-4. Componentes principales.
-5. Otras medidas de reconocimiento de formas.
-6. Clasificación.
-   - 6.1 Patrones y clases.
-   - 6.2 Patrón vectorial.
-   - 6.3 Patrón estructural.
-   - 6.4 Clasificación.
+1. **Image Recognition Systems**
+   - 1.1 Image Recognition Features
+   - 1.2 Data Flow in an Image Analysis System
+2. **Perimeter Descriptive Features**
+   - 2.1 Basic Descriptors
+   - 2.2 Shape Numbers
+   - 2.3 Fourier Descriptors
+   - 2.4 Statistical Moments
+3. **Region Descriptors**
+   - 3.1 Basic Descriptors
+   - 3.2 Topological Descriptors
+   - 3.3 Texture Descriptors
+4. **Principal Components**
+5. **Other Shape Recognition Measures**
+6. **Classification**
+   - 6.1 Patterns and Classes
+   - 6.2 Vector Patterns
+   - 6.3 Structural Patterns
+   - 6.4 Classification
 
-## Unidad 4: Visión en múltiples dimensiones
+## Unit 4: Multi-Dimensional Vision
 
-1. La percepción de la profundidad.
-   - 1.1 Visión estéreo y 2.5 dimensiones.
-2. Múltiples dimensiones.
-   - 2.1 Tres dimensiones.
-   - 2.2 Más de tres dimensiones.
-3. Técnicas de percepción de profundidad.
-   - 3.1 Nubes de puntos.
-   - 3.2 Luz estructurada.
-4. Indicadores 3D en imágenes 2D.
-   - 4.1 Perspectiva.
-   - 4.2 Marcadores.
-5. Aplicaciones.
-   - 5.1 Reconstrucción de objetos 3D usando vistas 2D.
-   - 5.2 Render de volumen.
-   - 5.3 Voxels.
+1. **Depth Perception**
+   - 1.1 Stereo Vision and 2.5 Dimensions
+2. **Multiple Dimensions**
+   - 2.1 Three Dimensions
+   - 2.2 More Than Three Dimensions
+3. **Depth Perception Techniques**
+   - 3.1 Point Clouds
+   - 3.2 Structured Light
+4. **3D Cues in 2D Images**
+   - 4.1 Perspective
+   - 4.2 Markers
+5. **Applications**
+   - 5.1 3D Object Reconstruction from 2D Views
+   - 5.2 Volume Rendering
+   - 5.3 Voxels
 
-## Unidad 5: Seguimiento de movimiento
+## Unit 5: Motion Tracking
 
-1. Fundamentos.
-   - 1.1 Cambio a través del tiempo.
-   - 1.2 Detección de cambios.
-2. Herramientas.
-   - 2.1 Geometría afín.
-   - 2.2 Estructura afín.
-   - 2.3 Triangulación.
-3. Flujo óptico.
-   - 3.1 Vectores de movimiento.
-   - 3.2 Rutas de movimiento.
-4. Seguimiento de movimiento.
-   - 4.1 Trayectorias.
-   - 4.2 Restricciones.
+1. **Fundamentals**
+   - 1.1 Change Over Time
+   - 1.2 Change Detection
+2. **Tools**
+   - 2.1 Affine Geometry
+   - 2.2 Affine Structure
+   - 2.3 Triangulation
+3. **Optical Flow**
+   - 3.1 Motion Vectors
+   - 3.2 Motion Paths
+4. **Motion Tracking**
+   - 4.1 Trajectories
+   - 4.2 Constraints
